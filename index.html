@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<title>Volodymyr Husliev</title>
+	<link rel="stylesheet" type="text/css" href="./lib/css/anim.css?v4"/>
+	<link rel="stylesheet" type="text/css" href="./lib/css/dark.css?v4"/>
+	<link rel="stylesheet" type="text/css" href="./lib/css/main.css?v4"/>
+	<link rel="stylesheet" type="text/css" href="./lib/css/debug.css?v4"/>
+	<link rel="stylesheet" type="text/css" href="./lib/css/scale.css?v4"/>
+
+
+	<script data-cfasync="false" src='./lib/js/jquery.js?v4'></script>
+	<script data-cfasync="false" src='./lib/js/dark.js?v4'></script>
+	<script data-cfasync="false" src='./lib/js/main.js?v4'></script>
+	<script data-cfasync="false" src='./lib/js/jscookie.js?v4'></script>
+	<script data-cfasync="false" src='./lib/js/particles.js?v4'></script>
+	<script data-cfasync="false" src='./lib/js/particles-sel.js?v4'></script>
+	<noscript>
+		<style>
+			/*
+            General:
+            - Elements that fade in are not visible by default
+            */
+			.fade-up-onstart {
+				display:inherit;
+			}
+			.fade-in-onload {
+				display:inherit;
+			}
+			/*
+            Index:
+            - Center index contents
+            */
+			.landing-con-container {
+				top:50%;
+				margin-top:-139px;
+			}
+			/*
+            Quickstart:
+            - Remove dimming
+            - Do not block interaction outside the sidebar
+            - Slightly reduce the width of the sidebar
+            */
+			.toggle-navsidebar {
+				background:none;
+				width:auto;
+			}
+			.sidebar-con-anim {
+				width:300px;
+			}
+		</style>
+	</noscript>
+
+
+	<script data-cfasync="false" src='./lib/js/carousel.js?v=1'></script>
+</head>
+<body>
+<img src="./img/graphics/landing/photo-main.png" width="1" height="1" alt="preload"/>
+<img src="./img/videos/CasualTornado.gif" width="1" height="1" alt="Preload"/>
+<img src="./img/videos/TimberSlice.gif" width="1" height="1" alt="Preload"/>
+
+<div class="window-con-theme">
+	<div class="window-bg-theme">
+	</div>
+	<div class="theme-con-spinner">
+		<div class="theme-ico-spinner">
+		</div>
+	</div>
+	<div class="theme-tx1-description pulsate">
+		<span>This feature is currently not yet available</span>
+	</div>
+	<div class="wavebar-con-container-theme">
+		<div class="wavebar-con-wrap">
+			<div class="wavebar-svg-object">
+			</div>
+			<div class="wavebar-svg-object">
+			</div>
+		</div>
+	</div>
+</div>
+<div class="theme-btn-close toggle-theme">
+</div>
+<div class="settings-menu-con-outer settings-submenu">
+	<div class="settings-menu-con-wrapper toggle-darkmode settings-menu-upper">
+		<div class="settings-menu-ico-darkmode">
+		</div>
+		<div class="settings-menu-btn-button btn-darkmode">
+			<span>Dark Theme - On/Off</span>
+		</div>
+	</div>
+</div>
+<div class="menu-btn-backtotop">
+</div>
+<div class='menu-con-container'>
+	<div class="menu-con-backdrop darkmode-menu">
+	</div>
+	<div class="menu-btn-settings toggle-settings">
+	</div>
+	<div class="menu-con-outer">
+		<div class="menu-con-inner">
+			<div class="menu-con-logo">
+			</div>
+			<div class="mobile-menu-btn-open toggle-mobilemenu">
+			</div>
+			<div class="mobile-menu-btn-darkmode toggle-darkmode">
+			</div>
+			<a href='https://github.com/VolodymyrHusliev' target="_blank">
+				<div class="menu-btn-select">
+					<span>GitHub</span>
+				</div>
+			</a>
+			<a href='https://apps.apple.com/us/developer/volodymyr-husliev/id1711778394' target="_blank">
+				<div class="menu-btn-select">
+					<span>App Store</span>
+				</div>
+			</a>
+			<a href='https://play.google.com/store/apps/developer?id=GooseFall' target="_blank">
+				<div class="menu-btn-select">
+					<span>Play Market</span>
+				</div>
+			</a>
+			<a href='https://t.me/youcanrequest' target="_blank">
+				<div class="menu-btn-select">
+					<span>Telegram</span>
+				</div>
+			</a>
+			<a href='https://www.linkedin.com/in/volodymyr-husliev-755473267/' target="_blank">
+				<div class="menu-btn-select">
+					<span>LinkedIn</span>
+				</div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class='mobile-menu-con-container popup-mobilemenu' style="display:none;">
+	<div class="menu-con-backdrop-2">
+	</div>
+	<div class='mobile-menu-con-scroll'>
+		<div class="mobile-menu-con-outter">
+			<div class="mobile-menu-con-inner" style="overflow: hidden !important;">
+				<div class='mobile-menu-tx1-group'>
+					<span>Main</span>
+				</div>
+				<div class='mobile-menu-con-divider'>
+				</div>
+				r
+				<div class='mobile-menu-btn-spacer'>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<?php include 'lib/module/home/inc-home-player.php'?>
+<?php
+	preloadVideo(
+	'1',
+	'xUpw9bHmoac',
+	'1'
+	);
+	preloadVideo(
+	'2',
+	'gIcsUr7W00k',
+	'2'
+	);
+	preloadVideo(
+	'3',
+	'60lq9pXzDic',
+	'3'
+	);
+?>
+<div class="page-con-content landing-con-override">
+	<div class="wavebar-con-container-master">
+		<div class="wavebar-con-wrap">
+			<div class="wavebar-svg-object">
+			</div>
+			<div class="wavebar-svg-object">
+			</div>
+		</div>
+	</div>
+	<div class='landing-ico-scrolldown'>
+	</div>
+	<div class="landing-con-main">
+		<div id="object-particles">
+		</div>
+		<div class="content-con-backdrop darkmode-header">
+		</div>
+		<div class="content-con-outside">
+			<div class="content-con-inside">
+				<div class='landing-con-left content-expand '>
+					<div class="landing-con-container scale-content-txt-1 fade-in-onload">
+						<div class='landing-ico-logo'>
+						</div>
+						<div class='landing-tx1-heading pulsate'>
+							<h1>VOLODYMYR HUSLIEV<br>
+							 </h1>
+						</div>
+						<div class='landing-tx2-heading'>
+							<p>
+								During my career at high positions as developer I learned and practiced a lot in team management, configuring processes to achieve short and long term goals driven by business priorities. The deep understanding of tech products and business goals allows me to choose optimal value-based risk free decisions and make business owners and development teams satisfied.
+								Looking for new horizons in the tech world to deliver value for your company faster and in a more efficient manner. My expertise, immersion, enthusiasm and cold business thinking makes almost any goal possible.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class='landing-con-right content-remove '>
+					<div class='landing-img-hero' style="background: url(./img/graphics/landing/photo-main.png) no-repeat center; background-size: 150%; background-position-x: -65px;">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="landing-con-video darkmode-feature">
+		<div class="content-con-outside">
+			<div class="content-con-inside">
+				<div class="video-tx1-heading darkmode-txt">
+					<h2>MY PROJECTS</h2>
+				</div>
+				<div class="video-con-divider">
+				</div>
+
+				<div class="container">
+					<div class="video-con-container">
+						<div class='video-con-left'>
+							<div class='video-con-wrapper'>
+								<div class='video-con-animate page-video-1'>
+								</div>
+								<div class='video-img-thumbnail' style="background: url('/public_html/img/videos/CasualTornado.gif') no-repeat center; background-size: cover;">
+								</div>
+
+
+							</div>
+						</div>
+						<div class='video-con-right'>
+							<div class="video-tx1-description darkmode-txt scale-content-txt-4">
+								<div class='video-emp-block'>
+								</div>
+								<h2>Casual Tornado - ASMR </h2>
+								<h3>"Casual Tornado - ASMR" is a simulation game in which the player controls a tornado and destroys various objects such as buildings, trees, cars, etc. A special feature of the game is the presence of ASMR effects, which contributes to a deeper and more immersive game atmosphere. The player can observe the behavior of objects during destruction. In general, "Casual Tornado - ASMR" is an unusual and fascinating game, which is suitable for those who want to relax and enjoy destruction in the world of simulation.</h3>
+							</div>
+						</div>
+					</div>
+
+					<div class="video-con-container">
+						<div class='video-con-left'>
+							<div class='video-con-wrapper'>
+								<div class='video-con-animate page-video-1'>
+								</div>
+								<div class='video-img-thumbnail' style="background: url('/public_html/img/videos/TimberSlice.gif') no-repeat center; background-size: cover;">
+								</div>
+							</div>
+						</div>
+						<div class='video-con-right'>
+							<div class="video-tx1-description darkmode-txt scale-content-txt-4">
+								<div class='video-emp-block'>
+								</div>
+								<h2>Timber Slice</h2>
+								<h3>Timber Slice is an addictive game that lets you immerse yourself in the world of chopping firewood. Grab your axe and aim carefully, cutting logs in the air. But be careful, time is limited and every miss takes away precious seconds. Pass all levels, improve your skills and enjoy the soothing ASMR sounds accompanying each of your blows. Chop wood gracefully and master the art of chopping in Timber Slice.</h3>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="landing-con-patreon darkmode-feature">
+		<div class="patreon-img-backdrop">
+		</div>
+		<div class="content-con-outside">
+			<div class="content-con-inside">
+				<div class="video-tx1-heading darkmode-txt">
+					<h2>CV</h2>
+				</div>
+				<div class="video-con-divider">
+				</div>
+				<div class="cv-wrapper">
+					<div class="cv-wrapper__file">
+						<iframe src="https://docs.google.com/document/d/e/2PACX-1vTTTx8pc932nkCyaRl8aoUm7hBrfHw_yKmKW7WctkT8aOjFeb211nRCtaBwAMByUg/pub?embedded=true"
+								class="cv-wrapper__frame"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+
+
+
+
+Центрировать CV
+Закруглить ее же
+По дефолту черная тема
