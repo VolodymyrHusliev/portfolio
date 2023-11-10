@@ -9,27 +9,27 @@
 
 @font-face {
     font-family: Roboto-Thin;
-    src: url(/lib/font/Roboto-Thin.woff) format("woff")
+    src: url(./lib/font/Roboto-Thin.woff) format("woff")
 }
 
 @font-face {
     font-family: Roboto-Light;
-    src: url(/lib/font/Roboto-Light.woff) format("woff")
+    src: url(./lib/font/Roboto-Light.woff) format("woff")
 }
 
 @font-face {
     font-family: Roboto-Regular;
-    src: url(/lib/font/Roboto-Regular.woff) format("woff")
+    src: url(./lib/font/Roboto-Regular.woff) format("woff")
 }
 
 @font-face {
     font-family: Roboto-Bold;
-    src: url(/lib/font/Roboto-Bold.woff) format("woff")
+    src: url(./lib/font/Roboto-Bold.woff) format("woff")
 }
 
 @font-face {
     font-family: SunlightGothic;
-    src: url(/lib/font/SunlightGothic.woff) format("woff")
+    src: url(./lib/font/SunlightGothic.woff) format("woff")
 }
 
 body {
@@ -187,7 +187,7 @@ a:hover {
 }
 
 .mini-menu-ico-logo {
-    background: url("/img/icons/menu/logo-wide-color.png") left center/180px no-repeat;
+    background: url("./img/icons/menu/logo-wide-color.png") left center/180px no-repeat;
     position: relative;
     width: 200px;
     height: 40px;
